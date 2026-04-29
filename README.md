@@ -15,6 +15,32 @@
 
 ---
 
+## 🚀 Quick Start
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/sd031/AI-Powered-AWS-Idle-Resource-Finder.git
+cd AI-Powered-AWS-Idle-Resource-Finder
+```
+
+### 2. Ensure AWS credentials are configured
+
+The application will mount your local AWS credentials into the container:
+
+```bash
+# Verify your AWS credentials exist
+ls -la ~/.aws/credentials
+```
+
+### 3. Start the application
+
+```bash
+docker-compose up -d
+```
+
+---
+
 ## ✨ Features
 
 ### Core Capabilities
